@@ -23,7 +23,7 @@ body{
     align-items: center;
 }
 .header-logo{
-    margin-right: 34px;
+    margin-right: 24px;
 }
 .logo{
     width: 91px;
@@ -40,13 +40,12 @@ body{
     text-decoration: none;
 }
 .nav_link:hover{
-font-weight: 700;
+    font-weight: 700;
     transition: opacity 0.1s linear;
-
 }
 
 .navbar-but{
-    margin-left: 393px;
+    margin-left: 60px;
     width: 157px;
     height: 50px;
     margin-right: 20px;
@@ -64,9 +63,18 @@ font-weight: 700;
     color: #fff;
 }
 .header-ru{
-    margin-right: 34px;
+    display: flex;
+    align-items: center;
+    margin-left: 247px;
 }
 .ru{
-    width: 91px;
-    height: 32px;
+    width: 35px;
+    height: 35px;
+}
+.but-ru{
+    opacity: 0.7;
+}
+.but-ru:hover{
+    transform: scale(1.04);
+    opacity: 1;
 }
