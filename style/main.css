@@ -39,6 +39,7 @@ body{
 }
 .header-logo{
     margin-right: 24px;
+    margin-left: 30px;
 }
 .logo{
     width: 91px;
@@ -78,7 +79,6 @@ body{
     margin-left: 60px;
     width: 157px;
     height: 50px;
-    margin-right: 20px;
     text-align: center;
     padding: 15px 26px;
     background-color: #4262FF;
@@ -100,5 +100,42 @@ body{
     padding-top: 158px;
 }
 .content{
+    display: flex;
+}
+.intro-title{
+    width: 285px;
+    margin-right: 220px;
+    margin-left: 40px;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    color: #050038;
+    text-align: left;
+}
+.intro-text-main{
+    padding-top: 19px;
+    margin-left: 40px;
+    margin-right: 81px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #050038;
+    text-align: left;
+}
+.intro-box{
+    margin-top: 55px;
+    margin-left: 40px;
+    margin-right: 81px;
+    width: 440px;
+    height: 48px;
+    border: 1px solid #9B99AF;
+    border-radius: 32px;
+}
+.intro-button{
 
+}
+.screenshot{
+    margin-right: 51px;
+}
+.screen{
+    width: 604px;
+    height: 461px;
 }
