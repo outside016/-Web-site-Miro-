@@ -55,7 +55,7 @@ body{
     text-decoration: none;
 }
 .nav_link:hover{
-    font-weight: 700;
+    color: #4262FF;
     transition: opacity 0.1s linear;
 }
 .header-ru{
@@ -69,9 +69,10 @@ body{
     height: 40px;
 }
 .but-ru{
+    transition: all .1s ease-in-out;
 }
 .but-ru:hover {
-    transform: scale(1.07);
+    transform: scale(1.1);
     opacity: 1;
 }
 .navbar-but{
@@ -83,9 +84,10 @@ body{
     background-color: #4262FF;
     border-radius: 100px;
     transition: all .1s ease-in-out;
+    cursor: pointer;
 }
 .navbar-but:hover{
-    transform: scale(1.04);
+    background-color: #264bff;
 }
 .navbar-button{
     text-decoration: none;
@@ -98,43 +100,113 @@ body{
     height: 700px;
     padding-top: 158px;
 }
-.content{
+.container{
     display: flex;
 }
 .intro-title{
-    width: 285px;
-    margin-right: 220px;
-    margin-left: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 220px;
+    padding-left: 40px;
     font-size: 48px;
+    font-weight: 400;
     font-family: 'Roboto', sans-serif;
     color: #050038;
     text-align: left;
 }
 .intro-text-main{
     padding-top: 19px;
-    margin-left: 40px;
-    margin-right: 81px;
+    padding-left: 40px;
+    padding-right: 81px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #050038;
     text-align: left;
 }
 .intro-box{
-    margin-top: 55px;
+    margin-top: 40px;
     margin-left: 40px;
     margin-right: 81px;
+    padding-left:20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #050038;
     width: 440px;
     height: 48px;
     border: 1px solid #9B99AF;
     border-radius: 32px;
 }
 .intro-button{
-
+    width: 440px;
+    height: 48px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 81px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #4262FF;
+    border-radius: 100px;
+    border: 1px solid #4262FF;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
 }
+.intro-button:hover{
+    background: #264bff;
+}
+.intro-text-bottom{
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #050038;
+    padding-left: 40px;
+}
+.intro-bottom{
+    display: flex;
+    margin-left: 40px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #050038;
+}
+.intro-bottom-txt{
+    margin-top: 52px;
+}
+.Walmart-logo{
+    margin-top: 47px;
+    margin-left: 20px;
+    width: 60px;
+    height: 33px;
+}
+.Cisco-logo{
+    margin-top: 47px;
+    margin-left: 20px;
+    width: 39px;
+    height: 33px;
+}
+.deloitte-logo{
+    margin-top: 47px;
+    margin-left: 20px;
+    width: 45px;
+    height: 33px;
+}
+.Volvo-logo{
+    margin-top: 47px;
+    margin-left: 20px;
+    width: 27px;
+    height: 33px;
+}
+
+
+
+
+
+
+
 .screenshot{
     margin-right: 51px;
 }
 .screen{
     width: 604px;
-    height: 461px;
+    height: 451px;
 }
