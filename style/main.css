@@ -75,23 +75,26 @@ body{
     transform: scale(1.1);
     opacity: 1;
 }
-.navbar-but{
+.navbar-but:hover{
+    background-color: #264bff;
+}
+.navbar-button{
     margin-left: 90px;
     width: 157px;
     height: 50px;
     text-align: center;
     padding: 15px 26px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
     background-color: #4262FF;
     border-radius: 100px;
-    transition: all .1s ease-in-out;
+    border: 1px solid #4262FF;
     cursor: pointer;
+    transition: all .1s ease-in-out;
 }
-.navbar-but:hover{
-    background-color: #264bff;
-}
-.navbar-button{
-    text-decoration: none;
-    color: #fff;
+.navbar-button:hover{
+    background: #264bff;
 }
 /* Intro
 ======================
