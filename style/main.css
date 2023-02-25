@@ -38,7 +38,7 @@ body{
     align-items: center;
 }
 .header-logo{
-    margin-right: 24px;
+    margin-right: 22px;
 }
 .logo{
     width: 91px;
@@ -100,7 +100,7 @@ body{
 ======================
  */
 .intro{
-    height: 700px;
+    height: 650px;
     padding-top: 158px;
 }
 .container{
@@ -199,17 +199,100 @@ body{
     width: 27px;
     height: 33px;
 }
-
-
-
-
-
-
-
 .screenshot{
     margin-right: 51px;
 }
 .screen{
-    width: 604px;
-    height: 451px;
+    width: 590px;
+    height: 461px;
+}
+
+/* Content-1
+======================
+ */
+.Content-1{
+margin-top: 214px;
+}
+.Content-1-text{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 116px;
+    padding-left: 40px;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #050038;
+    text-align: left;
+}
+.Content-1-text-main{
+    opacity: 0.60;
+    padding-top: 19px;
+    padding-left: 40px;
+    padding-right: 134px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #050038;
+    text-align: left;
+}
+.Content-1-text-bottom{
+    padding-top: 39px;
+    padding-left: 40px;
+    padding-right: 437px;
+}
+.Content-1-font-bottom{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #4262FF;
+}
+.screenshot-Content-1{
+    margin-top: 132px;
+    margin-right: 40px;
+}
+.screen-Content-1{
+    width: 550px;
+    height: 535px;
+}
+
+/* Content-2
+======================
+ */
+.screenshot-Content-2{
+    margin-top: 120px;
+    margin-left: 40px;
+    margin-right: 115px;
+}
+.screen-Content-2 {
+    width: 550px;
+    height: 498px;
+}
+.Content-2{
+    margin-top: 183px;
+}
+.Content-2-text{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 63px;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #050038;
+    text-align: left;
+}
+.Content-2-text-main{
+    opacity: 0.60;
+    padding-top: 19px;
+    padding-right: 66px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #050038;
+    text-align: left;
+}
+.Content-2-text-bottom{
+    padding-top: 39px;
+    padding-right: 362px;
+}
+.Content-2-font-bottom{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #4262FF;
 }
