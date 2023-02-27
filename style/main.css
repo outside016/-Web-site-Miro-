@@ -267,6 +267,7 @@ margin-top: 214px;
 }
 .screenshot-Content-2{
     margin-top: 120px;
+    margin-left: 40px;
 }
 .screen-Content-2 {
     width: 550px;
@@ -274,10 +275,10 @@ margin-top: 214px;
 }
 .Content-2{
     margin-top: 183px;
+    margin-right: 70px;
+    margin-left: 115px;
 }
 .Content-2-text{
-    margin-left: 115px;
-    margin-right: 66px;
     font-size: 48px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
@@ -287,8 +288,6 @@ margin-top: 214px;
 .Content-2-text-main{
     opacity: 0.60;
     margin-top: 19px;
-    margin-right: 66px;
-    margin-left: 115px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #050038;
@@ -296,8 +295,6 @@ margin-top: 214px;
 }
 .Content-2-text-bottom{
     margin-top: 39px;
-    margin-right: 66px;
-    margin-left: 115px;
 }
 .Content-2-font-bottom{
     font-size: 18px;
@@ -319,6 +316,7 @@ margin-top: 214px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #050038;
+
     text-align: left;
 }
 
@@ -327,14 +325,32 @@ margin-top: 214px;
 
 .slider {
     margin-top: 34px;
-    background: #33CCFF;
-    height: 1000px;
+    height: 700px;
     list-style-type: none;
     padding-left: 70px;
+    position: absolute;
+}
+
+.slider li {
+    list-style:none;
+    position: absolute;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider ul {
+    list-style:none;
+    position: absolute;
 }
 
 .slider input[type=radio] {
     display:none;
+}
+
+.slider label{
+    position: absolute;
 }
 
 .slider input[type=radio] + label {
@@ -342,8 +358,12 @@ margin-top: 214px;
     font-family: 'Roboto', sans-serif;
     color: #050038;
     border: 1px solid red;
+    padding-top: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
     border-radius: 24px;
     cursor: pointer;
+    height: 48px;
     position: absolute;
     z-index: 10;
 }
@@ -352,19 +372,43 @@ input[type=radio]:checked + label {
     background-color: blue;
 }
 
-.slider li {
-
-    list-style:none;
-    position: absolute;
-}
 .slider img {
     opacity: 0;
-    transition: .25s;
     visibility: hidden;
+    vertical-align: top;
+    width: 500px;
+    height: 500px;
 }
 .slider li input:checked ~ img {
     opacity: 1;
     visibility: visible;
+    z-index: 10;
+    margin-top: 100px;
 }
 
+.label1{
+    margin-left: 0;
+}
 
+.label2{
+    margin-left: 170px;
+}
+.label3{
+    margin-left: 295px;
+}
+.label4{
+    margin-left: 394px;
+}
+
+.label5{
+    margin-left: 487px;
+}
+
+.label6{
+    margin-left: 626px;
+    width: 186px;
+}
+
+.label7{
+    margin-left: 820px;
+}
