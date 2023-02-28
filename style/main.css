@@ -1,9 +1,10 @@
-body{
+body {
     margin: 0;
 }
+
 *,
 *:before,
-*:after{
+*:after {
     box-sizing: border-box;
 }
 
@@ -12,7 +13,7 @@ body{
 ====================
 */
 
-.container{
+.container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -21,7 +22,7 @@ body{
 /* Header
 ==========================
 */
-.header{
+.header {
     width: 100%;
     height: 90px;
     position: absolute;
@@ -32,53 +33,65 @@ body{
     font-size: 16px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
 }
-.header-inner{
+
+.header-inner {
     display: flex;
     padding: 20px 0;
     align-items: center;
 }
-.header-logo{
+
+.header-logo {
     margin-right: 22px;
 }
-.logo{
+
+.logo {
     width: 91px;
     height: 32px;
 }
-.nav{
+
+.nav {
     display: flex;
 }
-.nav_link{
+
+.nav_link {
     margin-right: 34px;
     color: #050038;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     text-decoration: none;
 }
-.nav_link:hover{
+
+.nav_link:hover {
     color: #4262FF;
     transition: opacity 0.1s linear;
 }
-.header-ru{
+
+.header-ru {
     display: flex;
     align-items: center;
     margin-left: 277px;
 }
-.ru{
+
+.ru {
     padding-top: 4px;
     width: 40px;
     height: 40px;
 }
-.but-ru{
+
+.but-ru {
     transition: all .1s ease-in-out;
 }
+
 .but-ru:hover {
     transform: scale(1.1);
     opacity: 1;
 }
-.navbar-but:hover{
+
+.navbar-but:hover {
     background-color: #264bff;
 }
-.navbar-button{
+
+.navbar-button {
     margin-left: 90px;
     width: 157px;
     height: 50px;
@@ -93,20 +106,24 @@ body{
     cursor: pointer;
     transition: all .1s ease-in-out;
 }
-.navbar-button:hover{
+
+.navbar-button:hover {
     background: #264bff;
 }
+
 /* Intro
 ======================
  */
-.intro{
+.intro {
     height: 650px;
     padding-top: 158px;
 }
-.intro-display{
+
+.intro-display {
     display: flex;
 }
-.intro-title{
+
+.intro-title {
     margin-top: 0;
     margin-bottom: 0;
     padding-right: 220px;
@@ -117,7 +134,8 @@ body{
     color: #050038;
     text-align: left;
 }
-.intro-text-main{
+
+.intro-text-main {
     padding-top: 19px;
     padding-left: 40px;
     padding-right: 81px;
@@ -126,11 +144,12 @@ body{
     color: #050038;
     text-align: left;
 }
-.intro-box{
+
+.intro-box {
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 81px;
-    padding-left:20px;
+    padding-left: 20px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #050038;
@@ -139,7 +158,8 @@ body{
     border: 1px solid #9B99AF;
     border-radius: 32px;
 }
-.intro-button{
+
+.intro-button {
     width: 440px;
     height: 48px;
     margin-top: 10px;
@@ -155,54 +175,64 @@ body{
     cursor: pointer;
     transition: all .1s ease-in-out;
 }
-.intro-button:hover{
+
+.intro-button:hover {
     background: #264bff;
 }
-.intro-text-bottom{
+
+.intro-text-bottom {
     margin-top: 8px;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     color: #050038;
     padding-left: 40px;
 }
-.intro-bottom{
+
+.intro-bottom {
     display: flex;
     margin-left: 40px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #050038;
 }
-.intro-bottom-txt{
+
+.intro-bottom-txt {
     margin-top: 52px;
 }
-.Walmart-logo{
+
+.Walmart-logo {
     margin-top: 47px;
     margin-left: 20px;
     width: 60px;
     height: 33px;
 }
-.Cisco-logo{
+
+.Cisco-logo {
     margin-top: 47px;
     margin-left: 20px;
     width: 39px;
     height: 33px;
 }
-.deloitte-logo{
+
+.deloitte-logo {
     margin-top: 47px;
     margin-left: 20px;
     width: 45px;
     height: 33px;
 }
-.Volvo-logo{
+
+.Volvo-logo {
     margin-top: 47px;
     margin-left: 20px;
     width: 27px;
     height: 33px;
 }
-.screenshot{
+
+.screenshot {
     margin-right: 51px;
 }
-.screen{
+
+.screen {
     width: 590px;
     height: 461px;
 }
@@ -210,13 +240,15 @@ body{
 /* Content-1
 ======================
  */
-.container-1-display{
+.container-1-display {
     display: flex;
 }
-.Content-1{
-margin-top: 214px;
+
+.Content-1 {
+    margin-top: 214px;
 }
-.Content-1-text{
+
+.Content-1-text {
     margin-top: 0;
     margin-bottom: 0;
     padding-right: 116px;
@@ -227,7 +259,8 @@ margin-top: 214px;
     color: #050038;
     text-align: left;
 }
-.Content-1-text-main{
+
+.Content-1-text-main {
     opacity: 0.60;
     padding-top: 19px;
     padding-left: 40px;
@@ -237,12 +270,14 @@ margin-top: 214px;
     color: #050038;
     text-align: left;
 }
-.Content-1-text-bottom{
+
+.Content-1-text-bottom {
     padding-top: 39px;
     padding-left: 40px;
     padding-right: 437px;
 }
-.Content-1-font-bottom{
+
+.Content-1-font-bottom {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #4262FF;
@@ -250,11 +285,13 @@ margin-top: 214px;
     border-bottom: 1px solid #4262FF;
     padding-bottom: 1px;
 }
-.screenshot-Content-1{
+
+.screenshot-Content-1 {
     margin-top: 132px;
     margin-right: 40px;
 }
-.screen-Content-1{
+
+.screen-Content-1 {
     width: 550px;
     height: 535px;
 }
@@ -262,30 +299,35 @@ margin-top: 214px;
 /* Content-2
 ======================
  */
-.Content-2-display{
+.Content-2-display {
     display: flex;
 }
-.screenshot-Content-2{
+
+.screenshot-Content-2 {
     margin-top: 120px;
     margin-left: 40px;
 }
+
 .screen-Content-2 {
     width: 550px;
     height: 498px;
 }
-.Content-2{
+
+.Content-2 {
     margin-top: 183px;
     margin-right: 70px;
     margin-left: 115px;
 }
-.Content-2-text{
+
+.Content-2-text {
     font-size: 48px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     color: #050038;
     text-align: left;
 }
-.Content-2-text-main{
+
+.Content-2-text-main {
     opacity: 0.60;
     margin-top: 19px;
     font-size: 18px;
@@ -293,10 +335,12 @@ margin-top: 214px;
     color: #050038;
     text-align: left;
 }
-.Content-2-text-bottom{
+
+.Content-2-text-bottom {
     margin-top: 39px;
 }
-.Content-2-font-bottom{
+
+.Content-2-font-bottom {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #4262FF;
@@ -308,7 +352,7 @@ margin-top: 214px;
 /* Content-3
 ======================
  */
-.content-3-text-header{
+.content-3-text-header {
     margin-top: 148px;
     margin-left: 70px;
     margin-bottom: 0;
@@ -316,33 +360,31 @@ margin-top: 214px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #050038;
-
     text-align: left;
 }
 
-
-
-
+/* slider-1
+======================
+ */
 .slider {
     margin-top: 34px;
-    height: 100px;
     padding-left: 70px;
     position: absolute;
 }
 
-.li {
+.slider-display {
     position: absolute;
 }
 
 .slider input[type=radio] {
-    display:none;
+    display: none;
 }
 
 .slider input[type=radio] + label {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     color: #050038;
-    border: 1px solid red;
+    border: 1px solid #F2F2F2;
     padding-top: 15px;
     padding-left: 18px;
     padding-right: 18px;
@@ -354,55 +396,87 @@ margin-top: 214px;
 }
 
 input[type=radio]:checked + label {
-    background-color: blue;
+    background-color: #F2F2F2;
 }
 
-.slider img {
+.slider-panel {
+    display: flex;
     opacity: 0;
     visibility: hidden;
-    width: 500px;
-    height: 500px;
+    transition: opacity 0.2s, visibility 0s linear 1s;
 }
-.li input:checked ~ img {
+
+.slider-display input:checked ~ .slider-panel {
     opacity: 1;
     visibility: visible;
+    transition-delay: 0s;
+}
+
+.slider-text {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 50px;
     margin-top: 100px;
-}
-.slider-text{
-    opacity: 0;
-    visibility: hidden;
+    width: 288px;
+    z-index: 10;
 }
 
-.li input:checked ~ .slider-text {
-    opacity: 1;
-    visibility: visible;
+.slider-text-1 {
+    color: #050038;
 }
 
-.label1{
+.slider-text-2 {
+    margin-top: 25px;
+    color: #050038;
+}
+
+.slider-text-3 {
+    margin-top: 32px;
+}
+
+.slider-link {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #4262FF;
+    text-decoration: none;
+}
+
+.slider-screen-display {
+    margin-top: 85px;
+}
+
+.slider-screen {
+    width: 700px;
+    height: 517px;
+}
+
+.label1 {
     margin-left: 0;
 }
 
-.label2{
+.label2 {
     margin-left: 170px;
 }
 
-.label3{
+.label3 {
     margin-left: 295px;
 }
 
-.label4{
+.label4 {
     margin-left: 394px;
 }
 
-.label5{
+.label5 {
     margin-left: 487px;
 }
 
-.label6{
+.label6 {
     margin-left: 626px;
-    width: 186px;
 }
 
-.label7{
+.label7 {
     margin-left: 820px;
 }
