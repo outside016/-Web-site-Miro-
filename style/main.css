@@ -369,10 +369,10 @@ body {
 .slider {
     margin-top: 34px;
     padding-left: 70px;
-    position: absolute;
+    height: 605px;
 }
 
-.slider-display {
+.slider-display{
     position: absolute;
 }
 
@@ -480,3 +480,21 @@ input[type=radio]:checked + label {
 .label7 {
     margin-left: 820px;
 }
+
+/* Content-4
+======================
+ */
+.content-4-text-header {
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #050038;
+    text-align: left;
+}
+
+/* slider-2
+======================
+ */
