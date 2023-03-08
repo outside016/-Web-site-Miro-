@@ -765,7 +765,24 @@ body {
     justify-content: space-between;
 }
 
-.content-6-block-first {
+.content-6-block-first-1 {
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #050038;
+    line-height: 24px;
+    margin-left: 76px;
+}
+
+.content-6-block-first-2 {
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #050038;
+    line-height: 24px;
+}
+
+.content-6-block-first-3 {
     text-align: left;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
@@ -863,6 +880,7 @@ body {
     border-radius: 24px;
     margin-top: 155px;
     margin-bottom: 120px;
+    margin-left: 40px;
 }
 
 .content-7-text {
