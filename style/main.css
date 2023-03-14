@@ -1135,3 +1135,16 @@ body {
     width: 45px;
     height: 45px;
 }
+
+
+/* MEDIA
+==================*/
+
+@media (max-width: 1200px) {
+
+
+    /* intro */
+    .intro-text__intro-title {
+
+    }
+}
