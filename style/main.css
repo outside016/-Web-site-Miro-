@@ -148,7 +148,6 @@ body {
 .intro-text__intro-box {
     margin-top: 40px;
     margin-left: 40px;
-    margin-right: 81px;
     padding-left: 20px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
@@ -164,7 +163,6 @@ body {
     height: 48px;
     margin-top: 10px;
     margin-left: 40px;
-    margin-right: 81px;
     text-align: center;
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
@@ -1134,17 +1132,4 @@ body {
 .footer-icon__miro {
     width: 45px;
     height: 45px;
-}
-
-
-/* MEDIA
-==================*/
-
-@media (max-width: 1200px) {
-
-
-    /* intro */
-    .intro-text__intro-title {
-
-    }
 }
